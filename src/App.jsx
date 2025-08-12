@@ -123,7 +123,7 @@ const AtDigitalWebsite = () => {
         <div className="container mx-auto px-4">
           <div className="space-y-16">
             {/* Web & Mobile Development */}
-            <div className="grid lg:grid-cols-2 gap-8 items-center">
+            {/* <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="order-2 lg:order-1">
                 <div className="bg-blue-100 p-8 rounded-lg">
                   <div className="flex items-center space-x-4">
@@ -133,6 +133,33 @@ const AtDigitalWebsite = () => {
                 </div>
               </div>
               <div className="order-1 lg:order-2 space-y-4">
+                <h2 className="text-3xl font-bold text-indigo-600">
+                  Web & Mobile App Development
+                </h2>
+                <p className="text-gray-600 leading-relaxed">
+                  Your web and mobile Apps are pieces of the puzzle to grow your
+                  business. We use frameworks which tailor content and
+                  engagement methods to respond to different intents shown by
+                  your potential customers who interact with your business
+                  online.
+                </p>
+                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded font-semibold transition-colors">
+                  LEARN MORE
+                </button>
+              </div>
+            </div> */}
+            <div className="grid lg:grid-cols-2 gap-1 items-center">
+              {/* Left side: Image instead of those colored blocks */}
+              <div className="order-2 lg:order-1 flex justify-center">
+                <img
+                  src="/image1.png"
+                  alt="Web and Mobile App Development"
+                  className=" w-64 object-cover"
+                />
+              </div>
+
+              {/* Right side: Text content */}
+              <div className="order-1 lg:order-2 space-y-2">
                 <h2 className="text-3xl font-bold text-indigo-600">
                   Web & Mobile App Development
                 </h2>

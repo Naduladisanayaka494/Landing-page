@@ -106,7 +106,7 @@ const AtDigitalWebsite = () => {
             </div>
 
             <div className="hidden lg:block">
-              {/* Add an image or any content here if needed */}
+      
             </div>
           </div>
         </div>
@@ -117,31 +117,6 @@ const AtDigitalWebsite = () => {
         <div className="container mx-auto px-4">
           <div className="space-y-16">
             {/* Web & Mobile Development */}
-            {/* <div className="grid lg:grid-cols-2 gap-8 items-center">
-              <div className="order-2 lg:order-1">
-                <div className="bg-blue-100 p-8 rounded-lg">
-                  <div className="flex items-center space-x-4">
-                    <div className="w-16 h-12 bg-orange-400 rounded"></div>
-                    <div className="w-12 h-16 bg-blue-400 rounded"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="order-1 lg:order-2 space-y-4">
-                <h2 className="text-3xl font-bold text-indigo-600">
-                  Web & Mobile App Development
-                </h2>
-                <p className="text-gray-600 leading-relaxed">
-                  Your web and mobile Apps are pieces of the puzzle to grow your
-                  business. We use frameworks which tailor content and
-                  engagement methods to respond to different intents shown by
-                  your potential customers who interact with your business
-                  online.
-                </p>
-                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded font-semibold transition-colors">
-                  LEARN MORE
-                </button>
-              </div>
-            </div> */}
             <div className="grid lg:grid-cols-2 gap-1 items-center">
               {/* Left side: Image instead of those colored blocks */}
               <div className="order-2 lg:order-1 flex justify-center">
@@ -169,8 +144,6 @@ const AtDigitalWebsite = () => {
                 </button>
               </div>
             </div>
-
-            {/* Digital Strategy Consulting */}
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold text-indigo-600">
@@ -188,15 +161,7 @@ const AtDigitalWebsite = () => {
                 </button>
               </div>
               <div>
-                {/* <div className="bg-blue-100 p-8 rounded-lg flex justify-center">
-                  <div className="relative">
-                    <Search className="w-24 h-24 text-blue-500" />
-                    <div className="absolute inset-0 bg-orange-400 rounded-full w-12 h-12 top-6 left-6"></div>
-                  </div>
-                </div> */}
-
                 <div className="grid lg:grid-cols-2 gap-1 items-center">
-                  {/* Left side: Image instead of those colored blocks */}
                   <div className="order-2 lg:order-1 flex justify-center">
                     <img
                       src="/image2.png"
@@ -248,7 +213,6 @@ const AtDigitalWebsite = () => {
       <footer className="bg-indigo-600 text-white py-12">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-            {/* Logo & Description */}
             <div className="space-y-4 max-w-md mx-auto md:mx-0">
               <div className="flex items-center space-x-2">
                 <img
@@ -263,8 +227,6 @@ const AtDigitalWebsite = () => {
                 business results.
               </p>
             </div>
-
-            {/* Our Technologies - aligned right on md+ */}
             <div className="max-w-xs mx-auto md:mx-0 md:text-right">
               <h3 className="font-bold mb-4">Our Technologies</h3>
               <ul className="space-y-2 text-sm text-gray-200">
@@ -275,7 +237,6 @@ const AtDigitalWebsite = () => {
               </ul>
             </div>
 
-            {/* Our Services - aligned right on md+ */}
             <div className="max-w-xs mx-auto md:mx-0 md:text-right">
               <h3 className="font-bold mb-4">Our Services</h3>
               <ul className="space-y-2 text-sm text-gray-200">
@@ -285,8 +246,6 @@ const AtDigitalWebsite = () => {
               </ul>
             </div>
           </div>
-
-          {/* Bottom Links */}
           <div className="border-t border-indigo-500 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-sm text-gray-200">
             <a href="#" className="hover:text-white">
               Privacy Policy

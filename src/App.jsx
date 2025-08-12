@@ -81,7 +81,10 @@ const AtDigitalWebsite = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-gray-50 py-16 lg:py-24">
+      <section
+        className="py-12 lg:py-20 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/background.jpg')" }}
+      >
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
@@ -95,7 +98,7 @@ const AtDigitalWebsite = () => {
                 </button>
               </div>
             </div>
-            <div className="relative">
+            {/* <div className="relative">
               <div className="bg-white rounded-lg shadow-lg p-4">
                 <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center">
                   <Monitor className="w-16 h-16 text-gray-400" />
@@ -110,7 +113,7 @@ const AtDigitalWebsite = () => {
                   <div className="h-2 bg-gray-200 rounded w-3/4"></div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

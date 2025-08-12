@@ -82,7 +82,7 @@ const AtDigitalWebsite = () => {
 
       {/* Hero Section */}
       <section
-        className="py-12 lg:py-20 bg-cover bg-center bg-no-repeat"
+        className="py-40 lg:py-40 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/background.jpg')" }}
       >
         <div className="container mx-auto px-4">
@@ -98,22 +98,6 @@ const AtDigitalWebsite = () => {
                 </button>
               </div>
             </div>
-            {/* <div className="relative">
-              <div className="bg-white rounded-lg shadow-lg p-4">
-                <div className="bg-gray-100 rounded-lg h-64 flex items-center justify-center">
-                  <Monitor className="w-16 h-16 text-gray-400" />
-                </div>
-                <div className="mt-4 space-y-2">
-                  <div className="flex space-x-2">
-                    <div className="w-16 h-12 bg-gray-200 rounded"></div>
-                    <div className="w-16 h-12 bg-gray-200 rounded"></div>
-                    <div className="w-16 h-12 bg-gray-200 rounded"></div>
-                  </div>
-                  <div className="h-2 bg-gray-200 rounded"></div>
-                  <div className="h-2 bg-gray-200 rounded w-3/4"></div>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
@@ -194,11 +178,23 @@ const AtDigitalWebsite = () => {
                 </button>
               </div>
               <div>
-                <div className="bg-blue-100 p-8 rounded-lg flex justify-center">
+                {/* <div className="bg-blue-100 p-8 rounded-lg flex justify-center">
                   <div className="relative">
                     <Search className="w-24 h-24 text-blue-500" />
                     <div className="absolute inset-0 bg-orange-400 rounded-full w-12 h-12 top-6 left-6"></div>
                   </div>
+                </div> */}
+
+                <div className="grid lg:grid-cols-2 gap-1 items-center">
+                  {/* Left side: Image instead of those colored blocks */}
+                  <div className="order-2 lg:order-1 flex justify-center">
+                    <img
+                      src="/image2.png"
+                      alt="Web and Mobile App Development"
+                      className=" w-64 object-cover"
+                    />
+                  </div>
+         
                 </div>
               </div>
             </div>

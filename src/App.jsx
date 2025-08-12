@@ -128,12 +128,12 @@ const AtDigitalWebsite = () => {
       </header>
 
       {/* Hero Section */}
-      <section
+      {/* <section
         className="py-40 lg:py-40 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/background.jpg')" }}
       >
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-8 items-center">
+        <div className="container mx-auto px-1">
+          <div className="grid lg:grid-cols-2 gap-3 items-center">
             <div className="space-y-6">
               <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white p-8 rounded-lg">
                 <h1 className="text-3xl lg:text-4xl font-bold leading-tight mb-6">
@@ -144,6 +144,32 @@ const AtDigitalWebsite = () => {
                   GET FREE CONSULTATION
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+      <section
+        className="py-20 lg:py-40 bg-cover bg-center bg-no-repeat flex items-start"
+        style={{ backgroundImage: "url('/background.jpg')" }}
+      >
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+            <div className="space-y-6 max-w-xl mx-auto lg:mx-0">
+              <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white p-8 rounded-lg">
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug mb-6 break-words">
+                  <div>We Crush Your</div>
+                  <div>Competitors, Goals, And</div>
+                  <div>Sales Records - Without</div>
+                  <div>The B.S.</div>
+                </h1>
+                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded font-semibold transition-colors block sm:inline-block">
+                  GET FREE CONSULTATION
+                </button>
+              </div>
+            </div>
+
+            <div className="hidden lg:block">
+              {/* Add an image or any content here if needed */}
             </div>
           </div>
         </div>

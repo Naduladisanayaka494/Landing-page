@@ -247,11 +247,15 @@ const AtDigitalWebsite = () => {
       {/* Footer */}
       <footer className="bg-indigo-600 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="space-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            {/* Logo & Description */}
+            <div className="space-y-4 max-w-md mx-auto md:mx-0">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-white rounded transform rotate-45"></div>
-                <span className="text-xl font-bold">at digital</span>
+                <img
+                  src="/Logo.png"
+                  alt="At Digital Logo"
+                  className="w-24 h-24 object-contain"
+                />
               </div>
               <p className="text-gray-200 text-sm leading-relaxed">
                 Your goal is our target. Not anything in between. We use online
@@ -260,7 +264,8 @@ const AtDigitalWebsite = () => {
               </p>
             </div>
 
-            <div>
+            {/* Our Technologies - aligned right on md+ */}
+            <div className="max-w-xs mx-auto md:mx-0 md:text-right">
               <h3 className="font-bold mb-4">Our Technologies</h3>
               <ul className="space-y-2 text-sm text-gray-200">
                 <li>ReactJS</li>
@@ -270,7 +275,8 @@ const AtDigitalWebsite = () => {
               </ul>
             </div>
 
-            <div>
+            {/* Our Services - aligned right on md+ */}
+            <div className="max-w-xs mx-auto md:mx-0 md:text-right">
               <h3 className="font-bold mb-4">Our Services</h3>
               <ul className="space-y-2 text-sm text-gray-200">
                 <li>Social Media Marketing</li>
@@ -280,16 +286,15 @@ const AtDigitalWebsite = () => {
             </div>
           </div>
 
-          <div className="border-t border-indigo-500 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <div className="text-sm text-gray-200">
-              <a href="#" className="hover:text-white">
-                Privacy Policy
-              </a>
-              <span className="mx-4">|</span>
-              <a href="#" className="hover:text-white">
-                Terms & Conditions
-              </a>
-            </div>
+          {/* Bottom Links */}
+          <div className="border-t border-indigo-500 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8 text-sm text-gray-200">
+            <a href="#" className="hover:text-white">
+              Privacy Policy
+            </a>
+            <span className="hidden md:inline mx-4">|</span>
+            <a href="#" className="hover:text-white">
+              Terms & Conditions
+            </a>
           </div>
         </div>
       </footer>

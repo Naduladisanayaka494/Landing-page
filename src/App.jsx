@@ -38,54 +38,11 @@ const AtDigitalWebsite = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      {/* <header className="bg-indigo-600 text-white">
-        <nav className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-white rounded transform rotate-45"></div>
-              <span className="text-xl font-bold">at digital</span>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#services" className="hover:text-gray-200">
-                SERVICES
-              </a>
-              <a href="#about" className="hover:text-gray-200">
-                ABOUT US
-              </a>
-              <a href="#contact" className="hover:text-gray-200">
-                CONTACT US
-              </a>
-              <a href="#careers" className="hover:text-gray-200">
-                CAREERS
-              </a>
-            </div>
-            <div className="md:hidden">
-              <button className="text-white">
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </nav>
-      </header> */}
 
       <header className="bg-indigo-600 text-white">
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              {/* <div className="w-8 h-8 bg-white rounded transform rotate-45"></div> */}
-              {/* Replace text with image */}
               <img
                 src="/Logo.png"
                 alt="At Digital Logo"
@@ -128,41 +85,21 @@ const AtDigitalWebsite = () => {
       </header>
 
       {/* Hero Section */}
-      {/* <section
-        className="py-40 lg:py-40 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/background.jpg')" }}
-      >
-        <div className="container mx-auto px-1">
-          <div className="grid lg:grid-cols-2 gap-3 items-center">
-            <div className="space-y-6">
-              <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white p-8 rounded-lg">
-                <h1 className="text-3xl lg:text-4xl font-bold leading-tight mb-6">
-                  We Crush Your Competitors, Goals, And Sales Records - Without
-                  The B.S.
-                </h1>
-                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded font-semibold transition-colors">
-                  GET FREE CONSULTATION
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section
-        className="py-20 lg:py-40 bg-cover bg-center bg-no-repeat flex items-start"
+        className="py-20 sm:py-28 lg:py-40 bg-cover bg-center bg-no-repeat flex items-start"
         style={{ backgroundImage: "url('/background.jpg')" }}
       >
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="space-y-6 max-w-xl mx-auto lg:mx-0">
-              <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white p-8 rounded-lg">
-                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold leading-snug mb-6 break-words">
+              <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 text-white p-6 sm:p-8 rounded-lg">
+                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-snug mb-6 break-words">
                   <div>We Crush Your</div>
                   <div>Competitors, Goals, And</div>
                   <div>Sales Records - Without</div>
                   <div>The B.S.</div>
                 </h1>
-                <button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded font-semibold transition-colors block sm:inline-block">
+                <button className="bg-orange-500 hover:bg-orange-600 text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded font-semibold transition-colors block sm:inline-block">
                   GET FREE CONSULTATION
                 </button>
               </div>
